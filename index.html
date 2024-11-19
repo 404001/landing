@@ -1,27 +1,27 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="main.css">
-    <title>Document</title>
+    <title>Página de Inicio</title>
 </head>
 <body>
 <header>
     <div class="menu container">
-        <a href="#" class="logo">Menu</a>
+        <a href="#" class="logo">ELOPE</a>
         <input type="checkbox" id="menu">
         <label for="menu">
-            <img src="./public/menu-btn.png" alt="menu" class="menu-icono">
+            <img src="./public/menu-btn.png" alt="Menú" class="menu-icono">
         </label>
 
         <nav class="navbar">
             <ul>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Servicios</a></li>
-                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Portafolio</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
@@ -29,139 +29,106 @@
 
     <div class="header-content container">
         <div class="content">
-            <h1>Lorem ipsum sit</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
-                cupiditate.
-            </p>
-            <a href="#" class="btn-1">Mas Información</a>
-            <a href="#" class="btn-1">Mas Información</a>
+            <h1>Bienvenido a <strong>ELOPE</strong></h1>
+            <p>Los Mejores Servicios.</p>
+            <a href="#services" class="btn-1">Explorar Servicios</a>
+            <a href="#contact" class="btn-1">Contactanos</a>
         </div>
-        <img src="./public/astronauta.png" alt="astronauta">
+        <img style="user-select: none" src="./public/astronauta.png" alt="Ilustración de Astronauta">
     </div>
 </header>
-<main class="services container">
-    <div class="service">
-        <img src="./public/icon1.svg" alt="icon">
-        <h3>Servicio 1</h3>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
-            cupiditate.
-        </p>
-    </div>
-    <div class="service">
-        <img src="./public/icon2.svg" alt="icon">
-        <h3>Servicio 2</h3>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
-            cupiditate.
-        </p>
-    </div>
-    <div class="service">
-        <img src="./public/icon3.svg" alt="icon">
-        <h3>Servicio 3</h3>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
-            cupiditate.
-        </p>
-    </div>
-    <div class="service">
-        <img src="./public/icon4.svg" alt="icon">
-        <h3>Servicio 4</h3>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
-            cupiditate.
-        </p>
-    </div>
+<main>
+    <section id="services" class="services container">
+        <div class="service">
+            <img src="./public/icon1.svg" alt="Icono de Servicio 1">
+            <h3>Diseño Creativo</h3>
+            <p>Transformamos tus ideas en visuales impactantes que cautivan a tu audiencia.</p>
+        </div>
+        <div class="service">
+            <img src="./public/icon2.svg" alt="Icono de Servicio 2">
+            <h3>Desarrollo Web</h3>
+            <p>Creación de sitios web responsivos y atractivos adaptados a tus necesidades.</p>
+        </div>
+        <div class="service">
+            <img src="./public/icon3.svg" alt="Icono de Servicio 3">
+            <h3>Estrategia de Marketing</h3>
+            <p>Diseño de estrategias innovadoras para potenciar tu presencia online y crecimiento.</p>
+        </div>
+        <div class="service">
+            <img src="./public/icon4.svg" alt="Icono de Servicio 4">
+            <h3>Branding</h3>
+            <p>Creación de identidades de marca únicas que dejan una impresión duradera.</p>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolios container">
+        <h2>Nuestro Portafolio</h2>
+        <div class="portfolio">
+            <img src="./public/img1.png" alt="Proyecto 1">
+            <div class="portfolio-1">
+                <h3>Proyecto Alpha</h3>
+                <p>Revolucionando la manera en que las empresas interactúan con la tecnologia.</p>
+                <a href="#" class="btn-2">Ver Proyecto</a>
+            </div>
+        </div>
+
+        <div class="portfolio">
+            <div class="portfolio-2">
+                <h3>Centro Creativo</h3>
+                <p>Diseños innovadores que hacen realidad tus ideas.</p>
+                <a href="#" class="btn-2">Ver Proyecto</a>
+            </div>
+            <img src="./public/img2.png" alt="Proyecto 2">
+        </div>
+
+        <div class="portfolio">
+            <img src="./public/img3.png" alt="Proyecto 3">
+            <div class="portfolio-3">
+                <h3>Soluciones Dinamicas</h3>
+                <p>Soluciones personalizadas para los desafios modernos de las empresas.</p>
+                <a href="#" class="btn-2">Ver Proyecto</a>
+            </div>
+        </div>
+
+        <div class="portfolio">
+            <div class="portfolio-4">
+                <h3>Innovar Ahora</h3>
+                <p>Impulsando el cambio a traves de la creatividad y la tecnologia.</p>
+                <a href="#" class="btn-2">Ver Proyecto</a>
+            </div>
+            <img src="./public/img4.png" alt="Proyecto 4">
+        </div>
+    </section>
 </main>
-
-<section class="portfolio container">
-    <h2>Portafolio</h2>
-    <div class="portfolio">
-        <img src="./public/img1.png" alt="portfolio">
-        <div class="portfolio-1">
-            <h3>Portfolio 1</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
-                cupiditate.
-            </p>
-            <a href="#" class="btn-2">Información</a>
-        </div>
-    </div>
-
-    <div class="portfolio">
-
-        <div class="portfolio-2">
-            <h3>Portfolio 2</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
-                cupiditate.
-            </p>
-            <a href="#" class="btn-2">Información</a>
-        </div>
-        <img src="./public/img2.png" alt="portfolio">
-    </div>
-
-    <div class="portfolio">
-        <img src="./public/img3.png" alt="portfolio">
-        <div class="portfolio-3">
-            <h3>Portfolio 3</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
-                cupiditate.
-            </p>
-            <a href="#" class="btn-2">Información</a>
-        </div>
-    </div>
-
-    <div class="portfolio">
-
-        <div class="portfolio-4">
-            <h3>Portfolio 4</h3>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus,
-                cupiditate.
-            </p>
-            <a href="#" class="btn-2">Información</a>
-        </div>
-        <img src="./public/img4.png" alt="portfolio">
-    </div>
-</section>
 
 <footer>
     <div class="container">
         <div class="info">
-
             <div class="info-content">
-
                 <div class="info-price">
-                    <h2>Precio</h2>
-                    <p class="price">$3500</p>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
+                    <h2>Nuestros Precios</h2>
+                    <p class="price">3500€</p>
+                    <p>Planes asequibles que se adaptan a tu presupuesto y necesidades.</p>
                 </div>
                 <div class="info-txt">
-                    <h2>Princing list</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                    <a href="#" class="btn-1">Información</a>
+                    <h2>¿Por Que Elegirnos?</h2>
+                    <p>Nuestra dedicación a la excelencia y satisfacción del cliente nos distingue.</p>
+                    <a href="#contact" class="btn-1">Más Información</a>
                 </div>
             </div>
             <hr>
             <div class="enlaces">
-                <h3>Logo</h3>
+                <h3>ELOPE</h3>
                 <div class="enlace">
-                    <li><a href="#">lorem</a></li>
-                    <li><a href="#">lorem</a></li>
-                    <li><a href="#">lorem</a></li>
-                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">Sobre Nosotros</a></li>
+                    <li><a href="#">Terminos</a></li>
+                    <li><a href="#">Privacidad</a></li>
+                    <li><a href="#">Soporte</a></li>
                 </div>
             </div>
         </div>
     </div>
 </footer>
-
+<!-- 🦆 Hecho por Jose Daniel -->
 </body>
 </html>
