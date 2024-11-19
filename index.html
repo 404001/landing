@@ -6,6 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="main.css">
+    <!-- AOS Library CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Página de Inicio</title>
 </head>
 <body>
@@ -34,27 +36,27 @@
             <a href="#services" class="btn-1">Explorar Servicios</a>
             <a href="#contact" class="btn-1">Contactanos</a>
         </div>
-        <img style="user-select: none" src="./public/astronauta.png" alt="Ilustración de Astronauta">
+        <img src="./public/astronauta.png" alt="astronauta" class="animated-image" data-aos="fade-up">
     </div>
 </header>
 <main>
     <section id="services" class="services container">
-        <div class="service">
+        <div data-aos="fade-up" class="service">
             <img src="./public/icon1.svg" alt="Icono de Servicio 1">
             <h3>Diseño Creativo</h3>
             <p>Transformamos tus ideas en visuales impactantes que cautivan a tu audiencia.</p>
         </div>
-        <div class="service">
+        <div data-aos="fade-up" class="service">
             <img src="./public/icon2.svg" alt="Icono de Servicio 2">
             <h3>Desarrollo Web</h3>
             <p>Creación de sitios web responsivos y atractivos adaptados a tus necesidades.</p>
         </div>
-        <div class="service">
+        <div data-aos="fade-up" class="service">
             <img src="./public/icon3.svg" alt="Icono de Servicio 3">
             <h3>Estrategia de Marketing</h3>
             <p>Diseño de estrategias innovadoras para potenciar tu presencia online y crecimiento.</p>
         </div>
-        <div class="service">
+        <div data-aos="fade-up" class="service">
             <img src="./public/icon4.svg" alt="Icono de Servicio 4">
             <h3>Branding</h3>
             <p>Creación de identidades de marca únicas que dejan una impresión duradera.</p>
@@ -129,6 +131,10 @@
         </div>
     </div>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <!-- 🦆 Hecho por Jose Daniel -->
 </body>
 </html>
